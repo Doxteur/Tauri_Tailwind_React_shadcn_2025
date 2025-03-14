@@ -63,7 +63,7 @@ export const NotificationsPanel = () => {
       </button>
 
       {isOpen && (
-        <div className="fixed md:absolute right-6 md:right-0 top-16 md:mt-2 w-80 bg-white border border-gray-200 rounded-md shadow-lg z-50">
+        <div className="absolute right-0 mt-2 w-80 bg-white border border-gray-200 rounded-md shadow-lg z-50">
           <div className="flex justify-between items-center p-4 border-b">
             <h3 className="font-medium">Notifications</h3>
             <div className="flex space-x-2">
